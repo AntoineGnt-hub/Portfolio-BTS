@@ -13,15 +13,16 @@ const link2 = document.getElementById("link2");
 const link3 = document.getElementById("link3");
 const link4 = document.getElementById("link4");
 const link5 = document.getElementById("link5");
+const link6 = document.getElementById("link6");
 
 
 link1.addEventListener('click', () => {
-    scrollToElement('.header');
+    scrollToElement('.container');
 });
 
 link2.addEventListener('click', () => {
     // Scroll to the second element with "header" class
-    scrollToElement('.header', 1);
+    scrollToElement('.container', 1);
 });
 
 link3.addEventListener('click', () => {
@@ -30,10 +31,15 @@ link3.addEventListener('click', () => {
 
 
 link4.addEventListener('click', () => {
-    scrollToElement('.header',2);
+    scrollToElement('.container',2);
 });
 
 
 link5.addEventListener('click', () => {
-    scrollToElement('.header',3);
+    scrollToElement('.container',3);
+});
+
+
+link6.addEventListener('click', () => {
+    scrollToElement('.container',4);
 });
